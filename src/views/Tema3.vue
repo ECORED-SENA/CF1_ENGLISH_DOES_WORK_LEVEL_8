@@ -119,6 +119,142 @@
       span.colr_4.text-bold Maria: 
       span.mt-3 Sí, me gradué hace dos años. Actualmente también estoy trabajando en un diplomado adicional en psicología, con un enfoque específico en el aprendizaje y la gestión del desempeño.
       p.mt-3 <b>Entrevistador:</b> Muy bien. Bueno, parece que tienes las calificaciones y la experiencia que estamos buscando.
+
+    separador
+    
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.2 <em>My interview</em> (Mi entrevista)
+    
+    .row.mb-5
+      .col-12.col-lg-7
+        TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo3")(data-aos="flip-up")
+      .col-12.col-lg-5
+        figure
+          img(src="@/assets/curso/tema3/t3-7.png", alt="alt")
+    
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    separador
+
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.3 <em>My social and family life</em> (Mi vida social y familiar)
+    
+    .row.mb-5
+      .col-12.col-lg-7
+        TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo4")(data-aos="flip-up")
+      .col-12.col-lg-5
+        figure
+          img(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
+    
+    .row.mb-5
+      .col-12.col-lg-5
+        figure
+          img(src="@/assets/curso/tema3/t3-9.svg", alt="alt")
+      .col-12.col-lg-7.mt-5
+        .tarjeta.bgr_10.p-4
+          LineaTiempoC.color-acento-contenido(text-small)
+            .row(titulo="1991")
+              .col-md-8.mb-4.mb-md-0
+                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo5")(data-aos="flip-up")
+                TarjetaAudio.color-secundario.mb-3(
+                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
+            .row(titulo="1995")
+              .col-md-8.mb-4.mb-md-0
+                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo6")(data-aos="flip-up")
+                TarjetaAudio.color-secundario.mb-3(
+                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
+            .row(titulo="1995")
+              .col-md-8.mb-4.mb-md-0
+                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo7")(data-aos="flip-up")
+                TarjetaAudio.color-secundario.mb-3(
+                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
+            .row(titulo="1995")
+              .col-md-8.mb-4.mb-md-0
+                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo8")(data-aos="flip-up")
+                TarjetaAudio.color-secundario.mb-3(
+                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
+            .row(titulo="1995")
+              .col-md-8.mb-4.mb-md-0
+                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo9")(data-aos="flip-up")
+                TarjetaAudio.color-secundario.mb-3(
+                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
+            .row(titulo="1995")
+              .col-md-8.mb-4.mb-md-0
+                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo10")(data-aos="flip-up")
+                TarjetaAudio.color-secundario.mb-3(
+                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema3/t3-15.svg', alt='Texto que describa la imagen')
+            .row(titulo="1995")
+              .col-md-8.mb-4.mb-md-0
+                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo11")(data-aos="flip-up")
+                TarjetaAudio.color-secundario.mb-3(
+                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
+            .row(titulo="1995")
+              .col-md-8.mb-4.mb-md-0
+                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo12")(data-aos="flip-up")
+                TarjetaAudio.color-secundario.mb-3(
+                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema3/t3-17.svg', alt='Texto que describa la imagen')
+          
+    
+    span.colr Here is a conversation in which you will listen to Cesar’s life in the university. Listen and complete: 
+    span.colr_2 / Se presenta una conversación en la que escuchará la vida de César en la universidad. Escuche y complete:
+
+    Dialogo.color-primario.mt-5(:dialogo="dialogo")
+      template(#nombre-actividad) Arrastrar y Soltar
+      template(#titulo-actividad) <em>Life in the university</em> / La vida en la universidad
+      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+
+
+
         
 
 
@@ -157,6 +293,123 @@ export default {
         audio: require('@/assets/componentes/audios/audio-ej.mp3'),
       },
     ],
+    dialogo3: [
+      {
+        textoIng:
+          '<em>Following the previous  topics seen, we are going to see about some tips needed to present great interviews taking into account the vocabulary and the grammar seen. Please, check the unknown vocabulary and try to relate it to the complete sentences:</em>',
+        textoEsp:
+          'Siguiendo con los temas vistos anteriormente, vamos a ver algunos consejos necesarios para presentar buenas entrevistas, teniendo en cuenta el vocabulario y la gramática vistos. Por favor, revise el vocabulario desconocido e intente relacionarlo con las oraciones completas:',
+        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+      },
+    ],
+    dialogo4: [
+      {
+        textoIng:
+          '<em>To talk about  personal and social life, It is important to know and understand some events that are key during the life, example: getting married, having children, graduating, moving, starting a relationship, getting divorced, buying a property, etc.<br><br>Here is the vocabulary that you can work. Read and listen to some personal and social events along with the date:  </em>',
+        textoEsp:
+          'Para hablar de la vida personal y social, es importante conocer y comprender algunos eventos que son clave durante la vida, ejemplo: casarse, tener hijos, graduarse, mudarse, iniciar una relación, divorciarse, comprar una propiedad, etc.<br><br>Lea algunos ejemplos acerca de eventos sociales y/o familiares con su respectiva fecha:',
+        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+      },
+    ],
+    dialogo5: [
+      {
+        textoIng: '<em>I started to study in 1991.</em>',
+        textoEsp: 'Empecé a estudiar en 1991.',
+      },
+    ],
+    dialogo6: [
+      {
+        textoIng: '<em>I graduated from elementary school in 1995.</em>',
+        textoEsp: 'Me gradué de la escuela primaria en 1995.',
+      },
+    ],
+    dialogo7: [
+      {
+        textoIng: '<em>I went to high school in 1996.</em>',
+        textoEsp: 'Fui a la escuela secundaria en 1996.',
+      },
+    ],
+    dialogo8: [
+      {
+        textoIng: '<em>I graduated from high school in 2001.</em>',
+        textoEsp: 'Me gradué de la escuela secundaria en 2001.',
+      },
+    ],
+    dialogo9: [
+      {
+        textoIng: '<em>I studied my career in the university until 2006. </em>',
+        textoEsp: 'Estudié mi carrera en la universidad hasta el 2006.',
+      },
+    ],
+    dialogo10: [
+      {
+        textoIng: '<em>In 2006, I went to live on my own.</em>',
+        textoEsp: 'En 2006, me fui a vivir solo.',
+      },
+    ],
+    dialogo11: [
+      {
+        textoIng: '<em>In 2008, I got married.</em>',
+        textoEsp: 'En 2008, me casé.',
+      },
+    ],
+    dialogo12: [
+      {
+        textoIng: '<em>In 2012, I had my first baby</em>',
+        textoEsp: 'En 2012, tuve mi primer bebé..',
+      },
+    ],
+    dialogo: {
+      personajes: [
+        {
+          nombre: 'Karla',
+          img: require('@/assets/curso/tema3/t3-18.svg'),
+        },
+        {
+          nombre: 'Rob',
+          img: require('@/assets/curso/tema3/t3-19.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Karla',
+          textoIng: 'Do you remember when we *** in the university?',
+          textoEsp: '¿Recuerdas cuando nos conocimos en la universidad?',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'met',
+        },
+        {
+          personaje: 'Rob',
+          textoIng: 'Yes, I do. I remember we met in German ***.',
+          textoEsp: 'Sí. Recuerdo que nos conocimos en la clase de alemán.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'class',
+        },
+        {
+          personaje: 'Karla',
+          textoIng: '*** it in Lengua Materna?',
+          textoEsp: '¿No fue en Lengua Materna?',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'Wasn’t',
+        },
+        {
+          personaje: 'Rob',
+          textoIng:
+            'No, It wasn’t. Do you remember we *** a friend studying German with us? Her name was Carolina.',
+          textoEsp:
+            'No, no lo fue. ¿Recuerdas que teníamos una amiga que estudiaba alemán con nosotros? Su nombre era Carolina.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'had',
+        },
+        {
+          personaje: 'Karla',
+          textoIng: 'Yes, I ***. Carolina Acevedo!',
+          textoEsp: 'Sí. ¡Carolina Acevedo!',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          palabra: 'do',
+        },
+      ],
+    },
   }),
   mounted() {
     this.$nextTick(() => {
