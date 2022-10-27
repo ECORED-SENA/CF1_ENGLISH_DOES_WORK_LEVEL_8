@@ -11,13 +11,14 @@
     
     .bg_grad-01
       .row.mb-5.p-2.p-lg-4.mb-5
-        .col-12.col-lg-9.d-flex.align-items-center
+        .col-12.col-lg-9.d-flex.align-items-center.position-relative(data-aos="fade-right")
           TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
-        .col-12.col-lg-3
+          img.pst_2(src="@/assets/curso/introduccion/img2.svg", alt="alt")
+        .col-12.col-lg-3(data-aos="fade-left")
           figure
             img(src="@/assets/curso/introduccion/img1.png", alt="alt")
     
-      figure
+      figure(data-aos="zoom-in")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

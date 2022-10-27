@@ -8,13 +8,13 @@
       h1 <em>Verb tenses</em> (Presente, pasado simple, presente perfecto, presente perfecto continuo, pasado perfecto)
     
     .row.mb-5
-      .col-12.col-lg-5
+      .col-12.col-lg-5(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/t1-1.png", alt="alt")
-      .col-12.col-lg-7
+      .col-12.col-lg-7(data-aos="fade-left")
         TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
     
-    .row.mb-3.justify-content-center  
+    .row.mb-3.justify-content-center(data-aos="zoom-out") 
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
@@ -32,7 +32,7 @@
               tr
                 td(rowspan='4') 
                   Audio.color-secundario.mx-3(
-                    :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+                    :audio="require('@/assets/componentes/audios/02.mp3')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
@@ -92,7 +92,7 @@
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center
         .col-12.col-lg-6.mb-4.mb-md-0
-          p.colr.text-bold <em>Present continuos</em>
+          p.colr.text-bold <em>Present continuous</em>
           p <em>To be (am/is/are) + ing form</em>
           p A menudo, se utilizan los adverbios: 
           p.mb-0.colr.text-bold <em>Always</em>
@@ -144,10 +144,10 @@
           figure
             img(src="@/assets/curso/tema1/t1-5.svg", alt="alt")
     
-    span.colr.text-bold The following table mentions the structure of the past simple tense, past continuous, past perfect, and past perfect continuous. 
-    | / En la siguiente tabla, se menciona la estructura del tiempo pasado simple, pasado continuo, pasado perfecto y pasado perfecto continuo.
+    span.colr <em>The following table mentions the structure of the past simple tense, past continuous, past perfect, and past perfect continuous.</em> 
+    span.colr_2 / En la siguiente tabla, se menciona la estructura del tiempo pasado simple, pasado continuo, pasado perfecto y pasado perfecto continuo.
 
-    .row.mt-5.mb-3.justify-content-center  
+    .row.mt-5.mb-3.justify-content-center(data-aos="zoom-in-right")  
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2
@@ -165,11 +165,11 @@
               tr
                 td(rowspan='4') 
                   Audio.color-secundario.mx-3(
-                    :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+                    :audio="require('@/assets/componentes/audios/03.mp3')"
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
-                td(rowspan='4') <em>Present</em>
+                td(rowspan='4') <em>Past</em>
                 td <em>SIMPLE</em>
                 td <em>To express situations that are done.</em>
                 td <em>Subject + verb in past</em>
@@ -226,7 +226,7 @@
     ModalA(:abrir-modal.sync="modal6")
       .row.align-items-center
         .col-12.col-lg-6.mb-4.mb-md-0
-          p.colr.text-bold <em>Past continuos</em>
+          p.colr.text-bold <em>Past continuous</em>
           p <em>Was / Were + ing form</em>
           p A menudo, se utilizan el adverbio: 
           p.colr.text-bold <em>While</em>
@@ -264,7 +264,7 @@
     ModalA(:abrir-modal.sync="modal8")
       .row.align-items-center
         .col-12.col-lg-6.mb-4.mb-md-0
-          p.colr.text-bold <em>Present perfect continuos</em>
+          p.colr.text-bold <em>Present perfect continuous</em>
           p <em>Had + been + ing form</em>
           p Describe acciones iniciadas en el pasado y que continuaron hasta otro punto en el pasado. 
           p.colr.text-bold <em>Example:</em> 
@@ -274,10 +274,10 @@
           figure
             img(src="@/assets/curso/tema1/t1-9.svg", alt="alt")
     
-    span.colr.text-bold Here we have a video class in which you will see three examples of each one of the tenses looking at the affirmative, negative, and interrogative forms. 
-    | / Aquí tenemos una video clase en la que verá tres ejemplos de cada uno de los tiempos, con las formas afirmativa, negativa e interrogativa.
+    span.colr <em>Here we have a video class in which you will see three examples of each one of the tenses looking at the affirmative, negative, and interrogative forms.</em> 
+    span.colr_2 / Aquí tenemos una video clase en la que verá tres ejemplos de cada uno de los tiempos, con las formas afirmativa, negativa e interrogativa.
 
-    figure.mt-5
+    figure.mt-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -302,7 +302,7 @@
           figure
             img(src="@/assets/curso/tema1/t1-11.svg", alt="alt")
           Audio.color-secundario.mx-3.pst(
-            :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+            :audio="require('@/assets/componentes/audios/04.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -362,7 +362,7 @@
               p.mt-3.text-bold <em>Dear Diary,</em> 
               p.mb-5 <em>Today was the day of my life, to start with, my teacher’s daughter <b>told me she was doing great</b> in school; then, my husband <b>told me we would</b> go to Florida in December; and finally, <b>my trainer told me I had done</b> a great job! I am so happy I gave my best!</em>
               TarjetaAudio.color-secundario.mb-3(
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/05.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -385,7 +385,7 @@
       .col-12.col-lg-4.bgr_3
         div.p-4
           Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+            :audio="require('@/assets/componentes/audios/07.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -393,7 +393,7 @@
       .col-12.col-lg-4.bgr_4
         div.p-4
           Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+            :audio="require('@/assets/componentes/audios/08.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -401,7 +401,7 @@
       .col-12.col-lg-4.bgr_3
         div.p-4
           Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+            :audio="require('@/assets/componentes/audios/09.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -430,7 +430,7 @@
       .col-12.col-lg-4.bgr_3
         div.p-4
           Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+            :audio="require('@/assets/componentes/audios/12.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -438,7 +438,7 @@
       .col-12.col-lg-4.bgr_4
         div.p-4
           Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+            :audio="require('@/assets/componentes/audios/13.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -446,7 +446,7 @@
       .col-12.col-lg-4.bgr_3
         div.p-4
           Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/Audio_3.mp3')"
+            :audio="require('@/assets/componentes/audios/14.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -461,7 +461,7 @@
           div.p-4
             TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo12")(data-aos="flip-up")
             TarjetaAudio.color-secundario.mb-3(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/15.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -499,10 +499,10 @@ export default {
     dialogo1: [
       {
         textoIng:
-          '<em>In the English grammar , four types of present and four types of past are used. Each one of them will be explained in terms of function and structure. <br><br>The following table mentions the structure of the present simple tense, present continuous, present perfect and present perfect continuous.</em>',
+          '<em>In the English grammar, four types of present and four types of past are used. Each one of them will be explained in terms of function and structure. <br><br>The following table mentions the structure of the present simple tense, present continuous, present perfect and present perfect continuous.</em>',
         textoEsp:
           'En la gramática inglesa, se enseñan cuatro tipos de presente y cuatro tipos de pasado, por lo tanto, cada uno de ellos va a ser explicado en términos de funcionalidad y estructura. <br><br>En la siguiente tabla, se menciona la estructura de los tiempos presente simple, presente continuo, presente perfecto y presente perfecto continuo.',
-        audio: require('@/assets/componentes/audios/Audio_1.mp3'),
+        audio: require('@/assets/componentes/audios/01.mp3'),
       },
     ],
     dialogo2: [
@@ -516,16 +516,16 @@ export default {
     dialogo3: [
       {
         textoIng:
-          '<em>The reg ular verbs are those that just need -ed to be formed in the second and third column. The irregular ones will not follow any pattern. Now, to be able to pronounce the verbs in -ed, we need to pay attention to the end:<br><br>Pronunciation of the regular verbs:</em>',
+          '<em>The regular verbs are those that just need -ed to be formed in the second and third column. The irregular ones will not follow any pattern. Now, to be able to pronounce the verbs in -ed, we need to pay attention to the end:<br><br><b>Pronunciation of the regular verbs:</b></em>',
         textoEsp:
           'Los verbos regulares son aquellos que solo necesitan formar -ed en la segunda y tercera columna. Los irregulares no seguirán ningún patrón. Ahora, para poder pronunciar los verbos en -ed, debemos prestar atención al final.<br><br>Pronunciación de verbos regulares:',
-        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/06.mp3'),
       },
     ],
     dialogo4: [
       {
         textoIng:
-          '<em>First example: <br><br>I needed to get a break.<br>He visited grandma to tell her how much he loved her.<br>I painted the fence.<br><br>In those previous example,s the -ed sounds /Id/</em>',
+          '<em><b>First example:</b> <br><br>I need<b>ed</b> to get a break.<br>He visit<b>ed</b> grandma to tell her how much he loved her.<br>I paint<b>ed</b> the fence.<br><br>In those previous example,s the -ed sounds /Id/</em>',
         textoEsp:
           'Primer ejemplo:<br><br>Necesitaba tomar un descanso.<br>Visitó a la abuela para decirle cuánto la amaba.<br>Pinté la cerca.<br><br>En esos ejemplos anteriores, -ed suena /Id/',
       },
@@ -533,7 +533,7 @@ export default {
     dialogo5: [
       {
         textoIng:
-          '<em>Second example:<br><br>I dreamed about her.<br>We catched a fish.<br><br>In those previous examples. the -ed sounds /d/</em>',
+          '<em><b>Second example:</b><br><br>I dream<b>ed</b> about her.<br>We catch<b>ed</b> a fish.<br><br>In those previous examples. the -ed sounds /d/</em>',
         textoEsp:
           'Segundo ejemplo:<br><br>Soñé con ella.<br>Pescamos un pez.<br><br>En esos ejemplos anteriores, la -ed suena /d/',
       },
@@ -541,7 +541,7 @@ export default {
     dialogo6: [
       {
         textoIng:
-          '<em>Third example:<br><br>We cooked a meal.<br>He stopped to smoke.<br><br>In those previous examples, the -ed sounds /t/</em>',
+          '<em><b>Third example:</b><br><br>We coo<b>ked</b> a meal.<br>He sto<b>pped</b> to smoke.<br><br>In those previous examples, the -ed sounds /t/</em>',
         textoEsp:
           'Tercer ejemplo:<br><br>Cocinamos una comida.<br>He dejado de fumar.<br><br>En esos ejemplos anteriores, -ed suena /t/',
       },
@@ -549,19 +549,19 @@ export default {
     dialogo7: [
       {
         textoIng:
-          '<em>Let´s pronounce these 5 verbs: <br><br> 1.	Needed   2.	Visited  3.	Painted  4.	Learned  5.	Tended</em>',
+          '<em><b>Let’s pronounce these 5 verbs:</b> <br><br> 1.Needed &nbsp&nbsp 2.Visited &nbsp&nbsp 3.Painted &nbsp&nbsp 4.Learned &nbsp&nbsp 5.Tended</em>',
         textoEsp:
-          'Pronunciemos estos 5 verbos: <br><br> 1.Necesario  2. Visitado  3. Pintado  4. Aprendido  5. Tendido',
-        audio: require('@/assets/componentes/audios/Audio_1.mp3'),
+          'Pronunciemos estos 5 verbos: <br><br> 1.Necesario &nbsp&nbsp 2.Visitado &nbsp&nbsp 3.Pintado &nbsp&nbsp 4.Aprendido &nbsp&nbsp 5.Tendido',
+        audio: require('@/assets/componentes/audios/10.mp3'),
       },
     ],
     dialogo8: [
       {
         textoIng:
-          '<em> It may  be that in previous courses we just worked with active voice, where the subject comes first, and it is really important now, in this passive voice, we will see it is no longer mentioned or relevant. <br><br>Let´s see the examples:</em>',
+          '<em> It may  be that in previous courses we just worked with active voice, where the subject comes first, and it is really important now, in this passive voice, we will see it is no longer mentioned or relevant. <br><br>Let’s see the examples:</em>',
         textoEsp:
           'Posiblemente, en previos cursos, hemos venido trabajando solo la voz activa, donde nuestro sujeto es importante y se ubica en primer lugar en las oraciones; ahora veamos cómo, en la construcción de la forma pasiva, nuestro sujeto ya no es importante, es nombrado al final o se omite. <br><br>Veamos algunos ejemplos',
-        audio: require('@/assets/componentes/audios/Audio_1.mp3'),
+        audio: require('@/assets/componentes/audios/11.mp3'),
       },
     ],
     dialogo9: [

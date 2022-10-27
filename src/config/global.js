@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      '<em>Once somebody told me</em> <br> Una vez alguien me dijo …',
+      '<em>Once somebody told me...</em> <br> Una vez alguien me dijo...',
     descripcionCurso:
-      'Este componente va a ser una mezcla de los tiempos vistos anteriormente, por ejemplo, presente simple, presente continuo, presente perfecto, presente perfecto continuo, pasado simple, pasado continuo, pasado perfecto, pasado perfecto continuo, futuro con “will”, futuro con “going to” y futuro con “-ing”.',
+      'Este componente va a ser una mezcla de los tiempos vistos anteriormente, por ejemplo, presente simple, presente continuo, presente perfecto, presente perfecto continuo, pasado simple, pasado continuo, pasado perfecto, pasado perfecto continuo, futuro con “<em>will</em>”, futuro con “<em>going to</em>” y futuro con “<em>-ing</em>”.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [

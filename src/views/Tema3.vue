@@ -82,7 +82,7 @@
           figure
             img(src="@/assets/curso/tema3/t3-6.svg", alt="alt")
           .bgr_9.p-4
-            p.colr <em>Interviewer: Hello, Maria. Thanks for coming to the interview.</em>
+            p.colr <em><b>Interviewer:</b> Hello, Maria. Thanks for coming to the interview.</em>
             span.colr_4.text-bold Maria: 
             span.colr <em>No problem.</em>
             p.colr.mt-3 <em><b>Interviewer:</b> Well, as you know, the company needs someone to lead the company.</em>
@@ -98,7 +98,7 @@
             .row  
               .col-12.col-lg-9
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/28.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -290,7 +290,7 @@ export default {
           '<em>Most of the  jobs are the result of a big effort since studying the job well, reviewing information about the company, writing a great curriculum vitae, dressing up well and answering the questions accurately. Listen to this interview and identify the main topics. </em>',
         textoEsp:
           'La mayoría de los trabajos son el resultado de un gran esfuerzo, desde estudiar bien el puesto, revisar información de la empresa, redactar un buen currículum vitae, vestirse bien y contestar las preguntas con precisión. Escuche esta entrevista e identifique los temas principales.',
-        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/27.mp3'),
       },
     ],
     dialogo3: [
@@ -299,7 +299,7 @@ export default {
           '<em>Following the previous  topics seen, we are going to see about some tips needed to present great interviews taking into account the vocabulary and the grammar seen. Please, check the unknown vocabulary and try to relate it to the complete sentences:</em>',
         textoEsp:
           'Siguiendo con los temas vistos anteriormente, vamos a ver algunos consejos necesarios para presentar buenas entrevistas, teniendo en cuenta el vocabulario y la gramática vistos. Por favor, revise el vocabulario desconocido e intente relacionarlo con las oraciones completas:',
-        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/29.mp3'),
       },
     ],
     dialogo4: [
@@ -308,7 +308,7 @@ export default {
           '<em>To talk about  personal and social life, It is important to know and understand some events that are key during the life, example: getting married, having children, graduating, moving, starting a relationship, getting divorced, buying a property, etc.<br><br>Here is the vocabulary that you can work. Read and listen to some personal and social events along with the date:  </em>',
         textoEsp:
           'Para hablar de la vida personal y social, es importante conocer y comprender algunos eventos que son clave durante la vida, ejemplo: casarse, tener hijos, graduarse, mudarse, iniciar una relación, divorciarse, comprar una propiedad, etc.<br><br>Lea algunos ejemplos acerca de eventos sociales y/o familiares con su respectiva fecha:',
-        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/30.mp3'),
       },
     ],
     dialogo5: [
@@ -375,21 +375,21 @@ export default {
           personaje: 'Karla',
           textoIng: 'Do you remember when we *** in the university?',
           textoEsp: '¿Recuerdas cuando nos conocimos en la universidad?',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/32.mp3'),
           palabra: 'met',
         },
         {
           personaje: 'Rob',
           textoIng: 'Yes, I do. I remember we met in German ***.',
           textoEsp: 'Sí. Recuerdo que nos conocimos en la clase de alemán.',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/33.mp3'),
           palabra: 'class',
         },
         {
           personaje: 'Karla',
           textoIng: '*** it in Lengua Materna?',
           textoEsp: '¿No fue en Lengua Materna?',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/34.mp3'),
           palabra: 'Wasn’t',
         },
         {
@@ -398,14 +398,14 @@ export default {
             'No, It wasn’t. Do you remember we *** a friend studying German with us? Her name was Carolina.',
           textoEsp:
             'No, no lo fue. ¿Recuerdas que teníamos una amiga que estudiaba alemán con nosotros? Su nombre era Carolina.',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/35.mp3'),
           palabra: 'had',
         },
         {
           personaje: 'Karla',
           textoIng: 'Yes, I ***. Carolina Acevedo!',
           textoEsp: 'Sí. ¡Carolina Acevedo!',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/componentes/audios/36.mp3'),
           palabra: 'do',
         },
       ],
