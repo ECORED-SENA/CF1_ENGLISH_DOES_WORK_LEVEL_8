@@ -24,7 +24,7 @@
         .tarjeta.bg-white.p-2.w-100
           div
             Audio.color-secundario.pst_1(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/24.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -38,7 +38,7 @@
         .tarjeta.bg-white.p-2.w-100
           div
             Audio.color-secundario.pst_1(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/25.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -52,7 +52,7 @@
         .tarjeta.bg-white.p-2.w-100
           div
             Audio.color-secundario.pst_1(
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/26.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -159,7 +159,7 @@
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo5")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/37.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -170,7 +170,7 @@
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo6")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/38.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -181,7 +181,7 @@
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo7")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/39.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -192,7 +192,7 @@
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo8")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/40.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -203,7 +203,7 @@
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo9")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/41.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -214,7 +214,7 @@
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo10")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/42.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -225,7 +225,7 @@
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo11")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/43.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -236,7 +236,7 @@
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo12")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/44.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -281,7 +281,7 @@ export default {
           '<em>To be able to describe and talk about situations in the job, it is necessary to know not only tenses but also the grammar and vocabulary needed to be able to deliver the idea accurately. When asking for a job, your job will start with applying for the job through a CV and then going to an interview, and finally, signing a contract. <br><br>Bear in mind there are some useful tips you will be able to accomplish easily if you know what to say and how to say it. <br><br>Let´s look at the job some people do, where they do it and what tools they need to accomplish the task well:</em>',
         textoEsp:
           'Para poder describir y hablar sobre situaciones en el trabajo, es necesario conocer no solo los tiempos, sino también la gramática y el vocabulario necesarios para poder transmitir la idea con precisión. Al solicitar un trabajo, comenzará con la solicitud del trabajo a través de un currículum, luego, yendo a una entrevista, y finalmente, firmando un contrato.<br><br>Tenga en cuenta que hay algunos consejos útiles que podrá lograr fácilmente si sabe qué decir y cómo decirlo.<br><br>Veamos el trabajo que hacen algunas personas, dónde lo hacen y qué herramientas necesitan para realizar bien la tarea:',
-        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/23.mp3'),
       },
     ],
     dialogo2: [
