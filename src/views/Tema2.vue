@@ -23,7 +23,7 @@
             .tarjeta.bg-white.p-2.w-100
               div
                 Audio.color-secundario.pst_1(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/17.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -34,7 +34,7 @@
             .tarjeta.bg-white.p-2.w-100
               div
                 Audio.color-secundario.pst_1(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/18.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -45,7 +45,7 @@
             .tarjeta.bg-white.p-2.w-100
               div
                 Audio.color-secundario.pst_1(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/19.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -56,7 +56,7 @@
             .tarjeta.bg-white.p-2.w-100
               div
                 Audio.color-secundario.pst_1(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/20.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -67,7 +67,7 @@
             .tarjeta.bg-white.p-2.w-100
               div
                 Audio.color-secundario.pst_1(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/componentes/audios/21.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
@@ -108,10 +108,10 @@ export default {
     dialogo1: [
       {
         textoIng:
-          '<em>Phrasal  verbs are the combination of an already known verb with one or more words that eventually change its meaning. For instance, using them makes the speech a little bit more elegant and it shows the learner or speaker knows the language well. Let´s see some examples of phrasal verbs along with their pictures. To be able to learn them well, make sure you use them in context in your real life:.</em>',
+          '<em>Phrasal  verbs are the combination of an already known verb with one or more words that eventually change its meaning. For instance, using them makes the speech a little bit more elegant and it shows the learner or speaker knows the language well. Let´s see some examples of phrasal verbs along with their pictures. To be able to learn them well, make sure you use them in context in your real life:</em>',
         textoEsp:
           'Phrasal verbs son la combinación de un verbo ya conocido con una o más palabras que eventualmente cambian su significado. Por ejemplo, usarlos hace que el discurso sea un poco más elegante y demuestra que el alumno o hablante conoce bien el idioma. Veamos algunos ejemplos de phrasal verbs junto con sus imágenes. Para poder aprenderlos bien, asegúrese de usarlos en contexto en su vida real:',
-        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/16.mp3'),
       },
     ],
     dialogo2: [
@@ -120,7 +120,7 @@ export default {
           '<em>Pronunciation: now let’s read and pronounce / Pronunciación: ahora leamos y pronunciemos<br><br>The idea is having a coffee before you leave, please come in.<br>We are driving towards Melgar and we are running late, please get in.<br>I am mopping the floor, so you and your dog need to get out.<br>He is picking up his trash on his own! I am so proud of him!<br>The cat is not happy with you holding him.</em>',
         textoEsp:
           'La idea es tomar un café antes de irte, pasa por favor.<br><br>Estamos conduciendo hacia Melgar y estamos retrasados, por favor súbanse<br>Estoy trapeando el piso, así que usted y su perro necesitan salir.<br>¡Él está recogiendo su basura por su cuenta! ¡Estoy muy orgulloso de él!<br>El gato no está contento contigo sosteniéndolo.',
-        audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        audio: require('@/assets/componentes/audios/22.mp3'),
       },
     ],
     dialogo3: [
