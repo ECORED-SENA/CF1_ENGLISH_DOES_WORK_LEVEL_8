@@ -17,10 +17,10 @@
         .col-12.col-lg-3(data-aos="fade-left")
           figure
             img(src="@/assets/curso/introduccion/img1.png", alt="alt")
-    
+   
       figure(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/rBN4QAWpBKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

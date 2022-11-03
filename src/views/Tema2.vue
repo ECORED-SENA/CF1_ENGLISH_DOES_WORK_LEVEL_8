@@ -126,9 +126,9 @@ export default {
     dialogo3: [
       {
         textoIng:
-          '<em>For practicing "speaking", remember to use digital tools from your phone or by web, like: <br><br>Record voice <br>Voice to text<br><br>https://vocaroo.com/ or https://online-voice-recorder.com/es/<br>https://dictation.io/speech or https://speechnotes.co/es/</em>',
+          '<em>For practicing "speaking", remember to use digital tools from your phone or by web, like: <br><br>Record voice <br>Voice to text<br><br><a href="https://vocaroo.com/"> https://vocaroo.com/  <a href="https://online-voice-recorder.com/es/">or  https://online-voice-recorder.com/es/<br><a href="https://dictation.io/speech">https://dictation.io/speech <a href="https://speechnotes.co/es/"> or https://speechnotes.co/es/</em>',
         textoEsp:
-          'Para practicar "hablar inglés", recuerde usar herramientas digitales desde su celular o por web, como:<br><br>Grabador de voz<br>Texto a voz<br><br>https://vocaroo.com/ ó https://online-voice-recorder.com/es/<br>https://dictation.io/speech ó https://speechnotes.co/es/',
+          'Para practicar "hablar inglés", recuerde usar herramientas digitales desde su celular o por web, como:<br><br>Grabador de voz<br>Texto a voz<br><br><a href="https://vocaroo.com/"> https://vocaroo.com/  <a href="https://online-voice-recorder.com/es/">ó  https://online-voice-recorder.com/es/<br><a href="https://dictation.io/speech">https://dictation.io/speech <a href="https://speechnotes.co/es/"> ó https://speechnotes.co/es/',
       },
     ],
   }),

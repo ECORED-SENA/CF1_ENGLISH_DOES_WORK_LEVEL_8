@@ -279,7 +279,7 @@
 
     figure.mt-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nmHGSbPBS2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
 
@@ -558,7 +558,7 @@ export default {
     dialogo8: [
       {
         textoIng:
-          '<em> It may  be that in previous courses we just worked with active voice, where the subject comes first, and it is really important now, in this passive voice, we will see it is no longer mentioned or relevant. <br><br>Let’s see the examples:</em>',
+          '<em> It may  be that in previous courses we just worked with active voice, where the subject comes first, and it is really important; now, in this passive voice, we will see it is no longer mentioned or relevant. <br><br>Let’s see the examples:</em>',
         textoEsp:
           'Posiblemente, en previos cursos, hemos venido trabajando solo la voz activa, donde nuestro sujeto es importante y se ubica en primer lugar en las oraciones; ahora veamos cómo, en la construcción de la forma pasiva, nuestro sujeto ya no es importante, es nombrado al final o se omite. <br><br>Veamos algunos ejemplos',
         audio: require('@/assets/componentes/audios/11.mp3'),

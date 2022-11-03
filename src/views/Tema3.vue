@@ -134,8 +134,8 @@
     
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/DBNVA2wv_iA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+   
     separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -177,7 +177,7 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
-            .row(titulo="1995")
+            .row(titulo="1996")
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo7")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
@@ -188,7 +188,7 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
-            .row(titulo="1995")
+            .row(titulo="2001")
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo8")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
@@ -199,7 +199,7 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
-            .row(titulo="1995")
+            .row(titulo="2006")
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo9")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
@@ -210,7 +210,7 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
-            .row(titulo="1995")
+            .row(titulo="2006")
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo10")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
@@ -221,7 +221,7 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/t3-15.svg', alt='Texto que describa la imagen')
-            .row(titulo="1995")
+            .row(titulo="2008")
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo11")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
@@ -232,7 +232,7 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
-            .row(titulo="1995")
+            .row(titulo="2012")
               .col-md-8.mb-4.mb-md-0
                 TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo12")(data-aos="flip-up")
                 TarjetaAudio.color-secundario.mb-3(
@@ -278,7 +278,7 @@ export default {
     dialogo1: [
       {
         textoIng:
-          '<em>To be able to describe and talk about situations in the job, it is necessary to know not only tenses but also the grammar and vocabulary needed to be able to deliver the idea accurately. When asking for a job, your job will start with applying for the job through a CV and then going to an interview, and finally, signing a contract. <br><br>Bear in mind there are some useful tips you will be able to accomplish easily if you know what to say and how to say it. <br><br>Let´s look at the job some people do, where they do it and what tools they need to accomplish the task well:</em>',
+          '<em>To be able to describe and talk about situations in the job, it is necessary to know not only tenses but also the grammar and vocabulary needed to be able to deliver the idea accurately. When asking for a job, your job will start with applying for the job through a CV and then going to an interview, and finally, signing a contract. <br><br>Bear in mind there are some useful tips you will be able to accomplish easily if you know what to say and how to say it. <br><br>Let’s look at the job some people do, where they do it and what tools they need to accomplish the task well:</em>',
         textoEsp:
           'Para poder describir y hablar sobre situaciones en el trabajo, es necesario conocer no solo los tiempos, sino también la gramática y el vocabulario necesarios para poder transmitir la idea con precisión. Al solicitar un trabajo, comenzará con la solicitud del trabajo a través de un currículum, luego, yendo a una entrevista, y finalmente, firmando un contrato.<br><br>Tenga en cuenta que hay algunos consejos útiles que podrá lograr fácilmente si sabe qué decir y cómo decirlo.<br><br>Veamos el trabajo que hacen algunas personas, dónde lo hacen y qué herramientas necesitan para realizar bien la tarea:',
         audio: require('@/assets/componentes/audios/23.mp3'),
