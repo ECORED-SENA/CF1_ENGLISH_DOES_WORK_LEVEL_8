@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       '<em>Once somebody told me...</em> <br> Una vez alguien me dijo...',
     descripcionCurso:
-      'Este componente va a ser una mezcla de los tiempos vistos anteriormente, por ejemplo, presente simple, presente continuo, presente perfecto, presente perfecto continuo, pasado simple, pasado continuo, pasado perfecto, pasado perfecto continuo, futuro con “<em>will</em>”, futuro con “<em>going to</em>” y futuro con “<em>-ing</em>”.',
+      'Este componente pretende repasar algunos de los tiempos gramaticales más comunes en inglés, como el presente simple, el pasado simple y el pasado continuo, para expresar ideas más complejas. Además del repaso de los temas, se mostrarán algunas características complementarias del tiempo pasado, como el uso de "<em>would</em>" y "<em>used to</em>" para hablar de rutinas en el pasado. Se incluirán los conectores secuenciales de pasado y el vocabulario de sentimientos y emociones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
