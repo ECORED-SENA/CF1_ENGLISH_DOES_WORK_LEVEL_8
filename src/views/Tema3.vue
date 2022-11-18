@@ -95,7 +95,7 @@
             span.colr_4.text-bold Maria: 
             span.colr <em>Yes, I got a diploma two years ago. I am also currently working on a further diploma in psychology, with a specific focus on learning and performance management.</em>
             p.colr.mt-3 <em><b>Interviewer:</b> Very good. Well, it looks like you have the qualifications and experience we're looking for.</em> 
-            .row  
+            .row.mt-3  
               .col-12.col-lg-9
                 TarjetaAudio.color-secundario.mb-3(
                   :audio="require('@/assets/componentes/audios/28.mp3')"

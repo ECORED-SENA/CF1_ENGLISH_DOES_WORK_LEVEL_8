@@ -453,7 +453,7 @@
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo11")(data-aos="flip-up")
 
     .bg_grad-04
-      .row.mt-5
+      .row.mt-5.mb-5
         .col-12.col-lg-2
           figure.mt-4
             img(src="@/assets/curso/tema1/t1-18.svg", alt="alt")
@@ -469,9 +469,20 @@
           figure
             img(src="@/assets/curso/tema1/t1-19.png", alt="alt")
     
-    span.colr Now complete the sentences using the right verb form: 
-    span / Ahora complete las oraciones usando la forma correcta del verbo:
 
+    .tarjeta.bgr_11.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema1/t1-20.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              span.colr Now complete the sentences using the right verb form: 
+              span / Ahora complete las oraciones usando la forma correcta del verbo:
+            .col-sm-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/Ad-01/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
                   
 
 </template>
