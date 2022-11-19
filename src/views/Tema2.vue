@@ -8,17 +8,17 @@
       h1 <em>Phrasal verbs</em> (Verbos frase)
 
     .bg_grad-05
-      .row.mb-5
-        .col-12.col-lg-6
-          figure
-            img(src="@/assets/curso/tema2/t2-1.png", alt="alt")
-        .col-12.col-lg-6
+      .row.mb-lg-5
+        .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
+          figure.d-flex.justify-content-center
+            img.w-auto(src="@/assets/curso/tema2/t2-1.png", alt="alt")
+        .col-12.col-lg-6(data-aos="fade-left")
           TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
     
-      .row.bgr_6.p-4
+      .row.bgr_6.p-4.mb-5
         p.text-center.colr <em>Phrasal verbs</em> 
         p.mb-5 <em>Phrasal verbs</em> son la combinación de un verbo ya conocido con una o más palabras que eventualmente cambian su significado.
-        SlyderF.slyder-arrows.mb-5.justify-content-center(columnas="col-lg-4")(data-aos="fade-left")
+        SlyderF.slyder-arrows.mb-5.justify-content-center(columnas="col-md-6 col-lg-4")(data-aos="fade-left")
           .p-2.d-flex.align-items-end.pst_8.pst_4(:style="{'background-image': `url(${require('@/assets/curso/tema2/t2-2.png')})`}" style='height: 347px')
             .tarjeta.bg-white.p-2.w-100
               div
@@ -76,20 +76,20 @@
                 p.mb-0.text-center.text-bold.colr_4 <em>She puts down the sand.</em>
     
     .bg_grad-06
-      .row.mb-5
-        .col-12.col-lg-6
+      .row.mb-lg-5
+        .col-12.col-lg-6.order-2.order-lg-1
           TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo2")(data-aos="flip-up")
-        .col-12.col-lg-6
-          figure
-            img(src="@/assets/curso/tema2/t2-7.png", alt="alt")
+        .col-12.col-lg-6.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
+          figure.d-flex.justify-content-center
+            img.w-auto(src="@/assets/curso/tema2/t2-7.png", alt="alt")
       
-      .bg_grad-07
+      .bg_grad-07(data-aos="flip-up")
         .row.d-flex.justify-content-center
           .col-12.col-lg-3
-            figure
-              img(src="@/assets/curso/tema2/t2-8.png", alt="alt")
+            figure.d-flex.justify-content-center
+              img.w-auto(src="@/assets/curso/tema2/t2-8.png", alt="alt")
           .col-12.col-lg-6
-            TraduccionT.color-acento-botones.mt-5(:dialogo="dialogo3")(data-aos="flip-up")
+            TraduccionT.color-acento-botones.mt-5(:dialogo="dialogo3")
 
 </template>
 

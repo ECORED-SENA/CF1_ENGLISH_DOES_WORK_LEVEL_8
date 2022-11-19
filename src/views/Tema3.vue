@@ -7,18 +7,18 @@
         span 3
       h1 <em>Let's talk about  my job</em> (Hablemos de mi trabajo)
 
-    .row.mb-5
-      .col-12.col-lg-7
+    .row.mb-lg-5
+      .col-12.col-lg-7.order-2.order-lg-1
         TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
-      .col-12.col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/t3-1.png", alt="alt")
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema3/t3-1.png", alt="alt")
     
     p.text-bold.text-center <em>Job and profession</em> / Profesión y trabajo
     p.mb-5 Texto descriptivo	Se muestra el vocabulario del trabajo que hacen algunas personas, dónde lo hacen y qué herramientas necesitan para realizarlo adecuadamente.
     
     .row.mb-5
-      .col-12.col-lg-4.bgr_7.p-4
+      .col-12.col-lg-4.bgr_7.p-4(data-aos="flip-down")
         figure.d-flex.justify-content-center
           img.mb-3.img200(src="@/assets/curso/tema3/t3-2.svg", alt="alt")
         .tarjeta.bg-white.p-2.w-100
@@ -32,7 +32,7 @@
               p.mb-0.text-bold.colr_4 <em>I am a pilot.</em>
               p.mb-0.text-bold.colr_4 <em>I work in an airport.</em>
               p.mb-0.text-bold.colr_4 <em>I need a plane to fly passengers from one place to another.</em>
-      .col-12.col-lg-4.bgr_8.p-4
+      .col-12.col-lg-4.bgr_8.p-4(data-aos="flip-up")
         figure.d-flex.justify-content-center
           img.mb-3.img200(src="@/assets/curso/tema3/t3-3.svg", alt="alt")
         .tarjeta.bg-white.p-2.w-100
@@ -46,7 +46,7 @@
               p.mb-0.text-bold.colr_4 <em>She is a nurse.</em>
               p.mb-0.text-bold.colr_4 <em>She works in a hospital.</em>
               p.mb-0.text-bold.colr_4 <em>She needs medicine to give to her patients.</em>
-      .col-12.col-lg-4.bgr_7.p-4
+      .col-12.col-lg-4.bgr_7.p-4(data-aos="flip-down")
         figure.d-flex.justify-content-center
           img.mb-3.img200(src="@/assets/curso/tema3/t3-4.svg", alt="alt")
         .tarjeta.bg-white.p-2.w-100
@@ -66,18 +66,18 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 <em>How I got the job</em> (Cómo me dieron el empleo)
     
-    .row.mb-5
-      .col-12.col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/t3-5.png", alt="alt")
+    .row.mb-lg-5
+      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema3/t3-5.png", alt="alt")
       .col-12.col-lg-7
         TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo2")(data-aos="flip-up")
     
-    span.colr Listen to the job interview to practice and improve your listening skills: 
+    span.colr <em>Listen to the job interview to practice and improve your listening skills: </em>  
     span / Escuche la entrevista de trabajo, para practicar y mejorar sus habilidades auditivas:
 
     .bg_grad-08
-      .row.justify-content-center
+      .row.justify-content-center.mt-5(data-aos="zoom-in")
         .col-12.col-lg-10
           figure
             img(src="@/assets/curso/tema3/t3-6.svg", alt="alt")
@@ -102,7 +102,7 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              .col-12.col-lg-auto
+              .col-12.col-lg-auto.d-flex.justify-content-center
                 a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                   span Ver traducción 
                   i.fas.fa-language
@@ -125,14 +125,14 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 <em>My interview</em> (Mi entrevista)
     
-    .row.mb-5
-      .col-12.col-lg-7
+    .row.mb-lg-5
+      .col-12.col-lg-7.order-2.order-lg-1
         TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo3")(data-aos="flip-up")
-      .col-12.col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/t3-7.png", alt="alt")
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema3/t3-7.png", alt="alt")
     
-    figure
+    figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/DBNVA2wv_iA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
    
@@ -141,114 +141,122 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.3 <em>My social and family life</em> (Mi vida social y familiar)
     
-    .row.mb-5
-      .col-12.col-lg-7
+    .row.mb-lg-5
+      .col-12.col-lg-7.order-2.order-lg-1
         TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo4")(data-aos="flip-up")
-      .col-12.col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema3/t3-8.svg", alt="alt")
     
     .row.mb-5
-      .col-12.col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/t3-9.svg", alt="alt")
-      .col-12.col-lg-7.mt-5
+      .col-12.col-lg-5(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema3/t3-9.svg", alt="alt")
+      .col-12.col-lg-7.mt-5(data-aos="fade-left")
         .tarjeta.bgr_10.p-4
           LineaTiempoC.color-acento-contenido(text-small)
             .row(titulo="1991")
-              .col-md-8.mb-4.mb-md-0
-                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo5")(data-aos="flip-up")
-                TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/37.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-8.mb-4.mb-md-0.d-flex.justify-content-center
+                div
+                  TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo5")(data-aos="flip-up")
+                  TarjetaAudio.color-secundario.mb-3(
+                    :audio="require('@/assets/componentes/audios/37.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-md-4
-                figure
-                  img(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
+                figure.d-flex.justify-content-center
+                  img.w-auto(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
             .row(titulo="1995")
-              .col-md-8.mb-4.mb-md-0
-                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo6")(data-aos="flip-up")
-                TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/38.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-8.mb-4.mb-md-0.d-flex.justify-content-center
+                div
+                  TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo6")(data-aos="flip-up")
+                  TarjetaAudio.color-secundario.mb-3(
+                    :audio="require('@/assets/componentes/audios/38.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-md-4
-                figure
-                  img(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
+                figure.d-flex.justify-content-center
+                  img.w-auto(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
             .row(titulo="1996")
-              .col-md-8.mb-4.mb-md-0
-                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo7")(data-aos="flip-up")
-                TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/39.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-8.mb-4.mb-md-0.d-flex.justify-content-center
+                div
+                  TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo7")(data-aos="flip-up")
+                  TarjetaAudio.color-secundario.mb-3(
+                    :audio="require('@/assets/componentes/audios/39.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-md-4
-                figure
-                  img(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
+                figure.d-flex.justify-content-center
+                  img.w-auto(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
             .row(titulo="2001")
-              .col-md-8.mb-4.mb-md-0
-                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo8")(data-aos="flip-up")
-                TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/40.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-8.mb-4.mb-md-0.d-flex.justify-content-center
+                div
+                  TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo8")(data-aos="flip-up")
+                  TarjetaAudio.color-secundario.mb-3(
+                    :audio="require('@/assets/componentes/audios/40.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-md-4
-                figure
-                  img(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
+                figure.d-flex.justify-content-center
+                  img.w-auto(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
             .row(titulo="2006")
-              .col-md-8.mb-4.mb-md-0
-                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo9")(data-aos="flip-up")
-                TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/41.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-8.mb-4.mb-md-0.d-flex.justify-content-center
+                div
+                  TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo9")(data-aos="flip-up")
+                  TarjetaAudio.color-secundario.mb-3(
+                    :audio="require('@/assets/componentes/audios/41.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-md-4
-                figure
-                  img(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
+                figure.d-flex.justify-content-center
+                  img.w-auto(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
             .row(titulo="2006")
-              .col-md-8.mb-4.mb-md-0
-                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo10")(data-aos="flip-up")
-                TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/42.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-8.mb-4.mb-md-0.d-flex.justify-content-center
+                div
+                  TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo10")(data-aos="flip-up")
+                  TarjetaAudio.color-secundario.mb-3(
+                    :audio="require('@/assets/componentes/audios/42.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-md-4
-                figure
-                  img(src='@/assets/curso/tema3/t3-15.svg', alt='Texto que describa la imagen')
+                figure.d-flex.justify-content-center
+                  img.w-auto(src='@/assets/curso/tema3/t3-15.svg', alt='Texto que describa la imagen')
             .row(titulo="2008")
-              .col-md-8.mb-4.mb-md-0
-                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo11")(data-aos="flip-up")
-                TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/43.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-8.mb-4.mb-md-0.d-flex.justify-content-center
+                div
+                  TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo11")(data-aos="flip-up")
+                  TarjetaAudio.color-secundario.mb-3(
+                    :audio="require('@/assets/componentes/audios/43.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-md-4
-                figure
-                  img(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
+                figure.d-flex.justify-content-center
+                  img.w-auto(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
             .row(titulo="2012")
-              .col-md-8.mb-4.mb-md-0
-                TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo12")(data-aos="flip-up")
-                TarjetaAudio.color-secundario.mb-3(
-                  :audio="require('@/assets/componentes/audios/44.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-md-8.mb-4.mb-md-0.d-flex.justify-content-center
+                div
+                  TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo12")(data-aos="flip-up")
+                  TarjetaAudio.color-secundario.mb-3(
+                    :audio="require('@/assets/componentes/audios/44.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-md-4
-                figure
-                  img(src='@/assets/curso/tema3/t3-17.svg', alt='Texto que describa la imagen')
+                figure.d-flex.justify-content-center
+                  img.w-auto(src='@/assets/curso/tema3/t3-17.svg', alt='Texto que describa la imagen')
           
     
     span.colr <em>Here is a conversation in which you will listen to Cesar’s life in the university. Listen and complete:</em> 
     span.colr_2 / Se presenta una conversación en la que escuchará la vida de César en la universidad. Escuche y complete:
 
-    Dialogo.color-primario.mt-5(:dialogo="dialogo")
+    Dialogo.color-primario.mt-5(:dialogo="dialogo")(data-aos="zoom-in")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Life in the university</em> / La vida en la universidad
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.

@@ -8,11 +8,11 @@
       h1 <em>Verb tenses</em> (Presente, pasado simple, presente perfecto, presente perfecto continuo, pasado perfecto)
     
     .row.mb-5
-      .col-12.col-lg-5(data-aos="fade-right")
-        figure
-          img(src="@/assets/curso/tema1/t1-1.png", alt="alt")
+      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema1/t1-1.png", alt="alt")
       .col-12.col-lg-7(data-aos="fade-left")
-        TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
+        TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo1")
     
     .row.mb-3.justify-content-center(data-aos="zoom-out") 
       .col-12.col-lg-10
@@ -24,13 +24,13 @@
           table.text-center
             thead.bgr_1
               tr
-                th(colspan='3')(style='width: 40%') <em>VERB TENSE</em>
-                th <em>FUNCTION</em>
-                th <em>STRUCTURE</em>
-                th <em>GRAMMAR</em>
+                th(colspan='3')(style='width: 58%') <em>VERB TENSE</em>
+                th(style='width: 21%') <em>FUNCTION</em>
+                th(style='width: 20%') <em>STRUCTURE</em>
+                th(style='width: 20%') <em>GRAMMAR</em>
             tbody.bgr_2
               tr
-                td(rowspan='4') 
+                td(rowspan='4')
                   Audio.color-secundario.mx-3(
                     :audio="require('@/assets/componentes/audios/02.mp3')"
                     @audio-hover="mostrarIndicadorAudio = false"
@@ -43,7 +43,7 @@
                 td 
                   a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                     span Ver gramática
-                    i.fas.fa-spell-check
+                    i.fas.fa-spell-check.d-none.d-xl-flex
                     .indicador--click(v-if="mostrarIndicador")
               tr  
                 td <em>CONTINUOUS</em>
@@ -52,7 +52,7 @@
                 td 
                   a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                     span Ver gramática
-                    i.fas.fa-spell-check
+                    i.fas.fa-spell-check.d-none.d-xl-flex
                     .indicador--click(v-if="mostrarIndicador")
               tr  
                 td <em>PERFECT</em>
@@ -61,7 +61,7 @@
                 td 
                   a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                     span Ver gramática
-                    i.fas.fa-spell-check
+                    i.fas.fa-spell-check.d-none.d-xl-flex
                     .indicador--click(v-if="mostrarIndicador")
               tr  
                 td <em>PERFECT CONTINUOUS</em>
@@ -70,8 +70,9 @@
                 td 
                   a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
                     span Ver gramática
-                    i.fas.fa-spell-check
+                    i.fas.fa-spell-check.d-none.d-xl-flex
                     .indicador--click(v-if="mostrarIndicador")
+
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
         .col-12.col-lg-6.mb-4.mb-md-0
@@ -157,10 +158,10 @@
           table.text-center
             thead.bgr_1
               tr
-                th(colspan='3')(style='width: 40%') <em>VERB TENSE</em>
-                th <em>FUNCTION</em>
-                th <em>STRUCTURE</em>
-                th <em>GRAMMAR</em>
+                th(colspan='3')(style='width: 58%') <em>VERB TENSE</em>
+                th(style='width: 21%') <em>FUNCTION</em>
+                th(style='width: 20%') <em>STRUCTURE</em>
+                th(style='width: 20%') <em>GRAMMAR</em>
             tbody.bgr_2
               tr
                 td(rowspan='4') 
@@ -176,7 +177,7 @@
                 td 
                   a.boton.color-acento-botones.indicador__container(@click="modal5 = true")
                     span Ver gramática
-                    i.fas.fa-spell-check
+                    i.fas.fa-spell-check.d-none.d-xl-flex
                     .indicador--click(v-if="mostrarIndicador")
               tr  
                 td <em>CONTINUOUS</em>
@@ -185,7 +186,7 @@
                 td 
                   a.boton.color-acento-botones.indicador__container(@click="modal6 = true")
                     span Ver gramática
-                    i.fas.fa-spell-check
+                    i.fas.fa-spell-check.d-none.d-xl-flex
                     .indicador--click(v-if="mostrarIndicador")
               tr  
                 td <em>PERFECT</em>
@@ -194,7 +195,7 @@
                 td 
                   a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
                     span Ver gramática
-                    i.fas.fa-spell-check
+                    i.fas.fa-spell-check.d-none.d-xl-flex
                     .indicador--click(v-if="mostrarIndicador")
               tr  
                 td <em>PERFECT CONTINUOUS</em>
@@ -203,8 +204,9 @@
                 td 
                   a.boton.color-acento-botones.indicador__container(@click="modal8 = true")
                     span Ver gramática
-                    i.fas.fa-spell-check
+                    i.fas.fa-spell-check.d-none.d-xl-flex
                     .indicador--click(v-if="mostrarIndicador")
+
     ModalA(:abrir-modal.sync="modal5")
       .row.align-items-center
         .col-12.col-lg-6.mb-4.mb-md-0
@@ -287,9 +289,9 @@
       h2 1.1 <em>Reported speech</em> (Reporte de frases)
     
     .row.mb-5
-      .col-12.col-lg-2
-        figure
-          img(src="@/assets/curso/tema1/t1-10.svg", alt="alt")
+      .col-12.col-lg-2.mb-3.mb-lg-0
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema1/t1-10.svg", alt="alt")
       .col-12.col-lg-10
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo2")(data-aos="flip-up")
     
@@ -298,7 +300,7 @@
           h5 Tabla 3
           span <em>Changing the tense in reported speech</em>
       .row.mb-3
-        .col-12.col-lg-7.position-relative
+        .col-12.col-lg-7.position-relative(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema1/t1-11.svg", alt="alt")
           Audio.color-secundario.mx-3.pst(
@@ -345,73 +347,76 @@
                 tr  
                   td <em>Future with going to</em>
                   td <em>Was/were going to</em>
-        .col-12.col-lg-5
-          figure
-            img(src="@/assets/curso/tema1/t1-12.svg", alt="alt")
+        .col-12.col-lg-5(data-aos="fade-left")
+          figure.d-flex.justify-content-center
+            img.w-auto(src="@/assets/curso/tema1/t1-12.svg", alt="alt")
       
       span.colr <em>Now, please read and listen the diary Eliana writes and identify the reported speech in it.</em> 
       span / Ahora, lea y escuche el diario que escribe Eliana e identifique el estilo indirecto en él .
 
       .bg_grad-03
         .row.mt-5
-          .col-12.col-lg-5
-            figure
-              img(src="@/assets/curso/tema1/t1-13.png", alt="alt")
-          .col-12.col-lg-5
+          .col-12.col-lg-5(data-aos="fade-left")
+            figure.d-flex.justify-content-center
+              img.w-auto(src="@/assets/curso/tema1/t1-13.png", alt="alt")
+          .col-12.col-lg-5(data-aos="fade-right")
             div.p-4
               p.mt-3.text-bold <em>Dear Diary,</em> 
               p.mb-5 <em>Today was the day of my life, to start with, my teacher’s daughter <b>told me she was doing great</b> in school; then, my husband <b>told me we would</b> go to Florida in December; and finally, <b>my trainer told me I had done</b> a great job! I am so happy I gave my best!</em>
-              TarjetaAudio.color-secundario.mb-3(
+              TarjetaAudio.color-secundario.mb-0.mb-lg-3(
                 :audio="require('@/assets/componentes/audios/05.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-          .col-12.col-lg-2
-            figure
-              img(src="@/assets/curso/tema1/t1-14.svg", alt="alt")
+          .col-12.col-lg-2(data-aos="fade-right")
+            figure.d-flex.justify-content-center
+              img.w-auto(src="@/assets/curso/tema1/t1-14.svg", alt="alt")
     
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Verbos regulares e irregulares
     
-    .row.mb-5
-      .col-12.col-lg-6
-        figure
-          img(src="@/assets/curso/tema1/t1-15.svg", alt="alt")
+    .row.mb-lg-5
+      .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema1/t1-15.svg", alt="alt")
       .col-12.col-lg-6
         TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo3")(data-aos="flip-up")
     .row.mb-5
-      .col-12.col-lg-4.bgr_3
-        div.p-4
-          Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/07.mp3')"
-            @audio-hover="mostrarIndicadorAudio = false"
-          )
-            .indicador--click(v-if="mostrarIndicadorAudio")
-        TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo4")(data-aos="flip-up")
-      .col-12.col-lg-4.bgr_4
-        div.p-4
-          Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/08.mp3')"
-            @audio-hover="mostrarIndicadorAudio = false"
-          )
-            .indicador--click(v-if="mostrarIndicadorAudio")
-        TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo5")(data-aos="flip-up")
-      .col-12.col-lg-4.bgr_3
-        div.p-4
-          Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/09.mp3')"
-            @audio-hover="mostrarIndicadorAudio = false"
-          )
-            .indicador--click(v-if="mostrarIndicadorAudio")
-        TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo6")(data-aos="flip-up")
+      .col-12.col-lg-4.bgr_3.d-flex.justify-content-center
+        div
+          div.p-4
+            Audio.color-secundario.pst_1(
+              :audio="require('@/assets/componentes/audios/07.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
+              .indicador--click(v-if="mostrarIndicadorAudio")
+          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo4")(data-aos="flip-up")
+      .col-12.col-lg-4.bgr_4.d-flex.justify-content-center
+        div 
+          div.p-4
+            Audio.color-secundario.pst_1(
+              :audio="require('@/assets/componentes/audios/08.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
+              .indicador--click(v-if="mostrarIndicadorAudio")
+          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo5")(data-aos="flip-up")
+      .col-12.col-lg-4.bgr_3.d-flex.justify-content-center
+        div 
+          div.p-4
+            Audio.color-secundario.pst_1(
+              :audio="require('@/assets/componentes/audios/09.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
+              .indicador--click(v-if="mostrarIndicadorAudio")
+          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo6")(data-aos="flip-up")
     
-    .row.mb-5
-      .col-12.col-lg-6
-        figure
-          img(src="@/assets/curso/tema1/t1-16.png", alt="alt")
-      .col-12.col-lg-6
+    .row
+      .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema1/t1-16.png", alt="alt")
+      .col-12.col-lg-6.d-flex.justify-content-center
         TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo7")(data-aos="flip-up")
     
     separador
@@ -419,45 +424,48 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 <em>Passive voice</em> (Voz pasiva) 
 
-    .row.mb-5
-      .col-12.col-lg-6
+    .row.mb-lg-5
+      .col-12.col-lg-6.order-2.order-lg-1
         TraduccionAudio.color-secundario.mb-5(:dialogo="dialogo8")(data-aos="flip-up") 
-      .col-12.col-lg-6
-        figure
-          img(src="@/assets/curso/tema1/t1-17.png", alt="alt")
+      .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/tema1/t1-17.png", alt="alt")
     
     .row.mb-5
-      .col-12.col-lg-4.bgr_3
-        div.p-4
-          Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/12.mp3')"
-            @audio-hover="mostrarIndicadorAudio = false"
-          )
-            .indicador--click(v-if="mostrarIndicadorAudio")
-        TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo9")(data-aos="flip-up")
-      .col-12.col-lg-4.bgr_4
-        div.p-4
-          Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/13.mp3')"
-            @audio-hover="mostrarIndicadorAudio = false"
-          )
-            .indicador--click(v-if="mostrarIndicadorAudio")
-        TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo10")(data-aos="flip-up")
-      .col-12.col-lg-4.bgr_3
-        div.p-4
-          Audio.color-secundario.pst_1(
-            :audio="require('@/assets/componentes/audios/14.mp3')"
-            @audio-hover="mostrarIndicadorAudio = false"
-          )
-            .indicador--click(v-if="mostrarIndicadorAudio")
-        TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo11")(data-aos="flip-up")
+      .col-12.col-lg-4.bgr_3.d-flex.justify-content-center
+        div
+          div.p-4
+            Audio.color-secundario.pst_1(
+              :audio="require('@/assets/componentes/audios/12.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
+              .indicador--click(v-if="mostrarIndicadorAudio")
+          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo9")(data-aos="flip-up")
+      .col-12.col-lg-4.bgr_4.d-flex.justify-content-center
+        div
+          div.p-4
+            Audio.color-secundario.pst_1(
+              :audio="require('@/assets/componentes/audios/13.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
+              .indicador--click(v-if="mostrarIndicadorAudio")
+          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo10")(data-aos="flip-up")
+      .col-12.col-lg-4.bgr_3.d-flex.justify-content-center
+        div
+          div.p-4
+            Audio.color-secundario.pst_1(
+              :audio="require('@/assets/componentes/audios/14.mp3')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
+              .indicador--click(v-if="mostrarIndicadorAudio")
+          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo11")(data-aos="flip-up")
 
     .bg_grad-04
       .row.mt-5.mb-5
-        .col-12.col-lg-2
-          figure.mt-4
-            img(src="@/assets/curso/tema1/t1-18.svg", alt="alt")
-        .col-12.col-lg-6
+        .col-12.col-lg-2(data-aos="fade-right")
+          figure.mt-0.mt-lg-4.d-flex.justify-content-center
+            img.w-auto(src="@/assets/curso/tema1/t1-18.svg", alt="alt")
+        .col-12.col-lg-6(data-aos="fade-right")
           div.p-4
             TraduccionT.color-acento-botones.bgr_5(:dialogo="dialogo12")(data-aos="flip-up")
             TarjetaAudio.color-secundario.mb-3(
@@ -465,12 +473,12 @@
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-        .col-12.col-lg-4
-          figure
-            img(src="@/assets/curso/tema1/t1-19.png", alt="alt")
+        .col-12.col-lg-4(data-aos="fade-left")
+          figure.d-flex.justify-content-center
+            img.w-auto(src="@/assets/curso/tema1/t1-19.png", alt="alt")
     
 
-    .tarjeta.bgr_11.p-3.mb-5
+    .tarjeta.bgr_11.p-3.mb-5(data-aos="flip-down")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema1/t1-20.svg")

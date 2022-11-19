@@ -15,8 +15,8 @@
           TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
           img.pst_2(src="@/assets/curso/introduccion/img2.svg", alt="alt")
         .col-12.col-lg-3(data-aos="fade-left")
-          figure
-            img(src="@/assets/curso/introduccion/img1.png", alt="alt")
+          figure.d-flex.justify-content-center
+            img.w-auto(src="@/assets/curso/introduccion/img1.png", alt="alt")
    
       figure(data-aos="zoom-in")
         .video
