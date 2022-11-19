@@ -245,7 +245,7 @@
                   img(src='@/assets/curso/tema3/t3-17.svg', alt='Texto que describa la imagen')
           
     
-    span.colr Here is a conversation in which you will listen to Cesar’s life in the university. Listen and complete: 
+    span.colr <em>Here is a conversation in which you will listen to Cesar’s life in the university. Listen and complete:</em> 
     span.colr_2 / Se presenta una conversación en la que escuchará la vida de César en la universidad. Escuche y complete:
 
     Dialogo.color-primario.mt-5(:dialogo="dialogo")
@@ -373,40 +373,41 @@ export default {
       dialogo: [
         {
           personaje: 'Karla',
-          textoIng: 'Do you remember when we *** in the university?',
+          textoIng:
+            '<em>Do you remember when we</em> *** <em>in the university?</em>',
           textoEsp: '¿Recuerdas cuando nos conocimos en la universidad?',
           audio: require('@/assets/componentes/audios/32.mp3'),
-          palabra: 'met',
+          palabra: '<em>met</em>',
         },
         {
           personaje: 'Rob',
-          textoIng: 'Yes, I do. I remember we met in German ***.',
+          textoIng: '<em>Yes, I do. I remember we met in German</em> ***.',
           textoEsp: 'Sí. Recuerdo que nos conocimos en la clase de alemán.',
           audio: require('@/assets/componentes/audios/33.mp3'),
-          palabra: 'class',
+          palabra: '<em>class</em>',
         },
         {
           personaje: 'Karla',
-          textoIng: '*** it in Lengua Materna?',
+          textoIng: '*** <em>it in Lengua Materna?</em>',
           textoEsp: '¿No fue en Lengua Materna?',
           audio: require('@/assets/componentes/audios/34.mp3'),
-          palabra: 'Wasn’t',
+          palabra: '<em>Wasn’t</em>',
         },
         {
           personaje: 'Rob',
           textoIng:
-            'No, It wasn’t. Do you remember we *** a friend studying German with us? Her name was Carolina.',
+            '<em>No, It wasn’t. Do you remember we</em> *** <em>a friend studying German with us? Her name was Carolina.</em>',
           textoEsp:
             'No, no lo fue. ¿Recuerdas que teníamos una amiga que estudiaba alemán con nosotros? Su nombre era Carolina.',
           audio: require('@/assets/componentes/audios/35.mp3'),
-          palabra: 'had',
+          palabra: '<em>had</em>',
         },
         {
           personaje: 'Karla',
-          textoIng: 'Yes, I ***. Carolina Acevedo!',
+          textoIng: '<em>Yes, I</em> ***. <em>Carolina Acevedo!</em>',
           textoEsp: 'Sí. ¡Carolina Acevedo!',
           audio: require('@/assets/componentes/audios/36.mp3'),
-          palabra: 'do',
+          palabra: '<em>do</em>',
         },
       ],
     },
