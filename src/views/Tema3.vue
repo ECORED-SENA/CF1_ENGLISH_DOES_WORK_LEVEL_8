@@ -15,7 +15,7 @@
           img.w-auto(src="@/assets/curso/tema3/t3-1.png", alt="alt")
     
     p.text-bold.text-center <em>Job and profession</em> / Profesión y trabajo
-    p.mb-5 Texto descriptivo	Se muestra el vocabulario del trabajo que hacen algunas personas, dónde lo hacen y qué herramientas necesitan para realizarlo adecuadamente.
+    p.mb-5 Se muestra el vocabulario del trabajo que hacen algunas personas, dónde lo hacen y qué herramientas necesitan para realizarlo adecuadamente.
     
     .row.mb-5
       .col-12.col-lg-4.bgr_7.p-4(data-aos="flip-down")

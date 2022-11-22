@@ -286,7 +286,7 @@
     separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 <em>Reported speech</em> (Reporte de frases)
+      h2 1.1 <em>Reported speech</em> (Estilo indirecto)
     
     .row.mb-5
       .col-12.col-lg-2.mb-3.mb-lg-0
@@ -529,7 +529,7 @@ export default {
         textoIng:
           '<em>The reported speech is used to report something somebody has said. The only thing that must be considered is changing the tense.<br><br>In the following image, you will see how you need to change the tense when creating a reported speech:</em>',
         textoEsp:
-          'El reported speech se usa para informar algo que alguien ha dicho. Lo único que hay que tener en cuenta es el cambio de tiempo.<br><br>En la siguiente tabla, puede observar cómo se necesita cambiar el tiempo al crear un estilo indirecto:',
+          'El estilo indirecto se usa para informar algo que alguien ha dicho. Lo único que hay que tener en cuenta es el cambio de tiempo.<br><br>En la siguiente tabla, puede observar cómo se necesita cambiar el tiempo al crear un estilo indirecto:',
       },
     ],
     dialogo3: [
@@ -562,7 +562,7 @@ export default {
         textoIng:
           '<em><b>Third example:</b><br><br>We coo<b>ked</b> a meal.<br>He sto<b>pped</b> to smoke.<br><br>In those previous examples, the -ed sounds /t/</em>',
         textoEsp:
-          'Tercer ejemplo:<br><br>Cocinamos una comida.<br>He dejado de fumar.<br><br>En esos ejemplos anteriores, -ed suena /t/',
+          'Tercer ejemplo:<br><br>Cocinamos una comida.<br>Él ha dejado de fumar.<br><br>En esos ejemplos anteriores, -ed suena /t/',
       },
     ],
     dialogo7: [
@@ -604,7 +604,7 @@ export default {
         textoIng:
           '<em>Future<br><br>Gabriel will write Cien años de soledad.<br>Cien años de soledad will be written by Gabriel.</em>',
         textoEsp:
-          'Futuro<br><br>Gabriel escribirá Cien años de soledad.<br>Cien años de soledad Será escrita por Gabriel.',
+          'Futuro<br><br>Gabriel escribirá Cien años de soledad.<br>Cien años de soledad será escrita por Gabriel.',
       },
     ],
     dialogo12: [

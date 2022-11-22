@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 <em>Reading comprehension “My last trip”.</em> / Comprensión de lectura “<em>My last trip</em>”.
-        p.mb-4 Reforzar conocimientos acerca de las frases de reporte.
+        p.mb-4 Reforzar conocimientos acerca de las estilo indirecto.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

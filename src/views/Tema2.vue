@@ -117,7 +117,7 @@ export default {
     dialogo2: [
       {
         textoIng:
-          '<em><b>Pronunciation:</b> now let’s read and pronounce / Pronunciación: ahora leamos y pronunciemos<br><br>The idea is having a coffee before you leave, please come in.<br>We are driving towards Melgar and we are running late, please get in.<br>I am mopping the floor, so you and your dog need to get out.<br>He is picking up his trash on his own! I am so proud of him!<br>The cat is not happy with you holding him.</em>',
+          '<em><b>Pronunciation:</b> now let’s read and pronounce / Pronunciación: ahora leamos y pronunciemos<br><br>The idea is having a coffee before you leave, please <b>come in</b>.<br>We are driving towards Melgar and we are running late, please <b>get in</b>.<br>I am mopping the floor, so you and your dog need to <b>get out</b>.<br>He is <b>picking up</b> his trash on his own! I am so proud of him!<br>The cat is not happy with you <b>holding</b> him <b>up</b>.</em>',
         textoEsp:
           'La idea es tomar un café antes de irte, pasa por favor.<br><br>Estamos conduciendo hacia Melgar y estamos retrasados, por favor súbanse<br>Estoy trapeando el piso, así que usted y su perro necesitan salir.<br>¡Él está recogiendo su basura por su cuenta! ¡Estoy muy orgulloso de él!<br>El gato no está contento contigo sosteniéndolo.',
         audio: require('@/assets/componentes/audios/22.mp3'),
