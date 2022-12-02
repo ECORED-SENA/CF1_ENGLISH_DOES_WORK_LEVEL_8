@@ -266,7 +266,7 @@
     ModalA(:abrir-modal.sync="modal8")
       .row.align-items-center
         .col-12.col-lg-6.mb-4.mb-md-0
-          p.colr.text-bold <em>Present perfect continuous</em>
+          p.colr.text-bold <em>Past perfect continuous</em>
           p <em>Had + been + ing form</em>
           p Describe acciones iniciadas en el pasado y que continuaron hasta otro punto en el pasado. 
           p.colr.text-bold <em>Example:</em> 

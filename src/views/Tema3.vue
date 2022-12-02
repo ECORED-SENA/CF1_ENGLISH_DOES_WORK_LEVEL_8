@@ -109,7 +109,10 @@
                   .indicador--click(v-if="mostrarIndicador")
     
     ModalA(:abrir-modal.sync="modal1")
-      p <b>Entrevistador:</b> Bueno, como sabes, la empresa necesita a alguien que dirija la empresa.
+      p <b>Entrevistador:</b> Hola, María. Gracias por venir a la entrevista.
+      span.colr_4.text-bold Maria: 
+      span No hay problema
+      p.mt-3 <b>Entrevistador:</b> Bueno, como sabes, la empresa necesita a alguien que dirija la empresa.
       span.colr_4.text-bold Maria: 
       span Sí, por eso estoy aquí.
       p.mt-3 <b>Entrevistador:</b> Eso suena genial. Por favor, dime qué has estado haciendo durante los últimos cuatro años más o menos.
